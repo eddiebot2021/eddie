@@ -259,7 +259,7 @@ function stepsfrommodelblind(model) {
          //{value: 'game', label: 'Play a game 🎮',trigger:'jokestart'},
          {value: 'joke', label: 'Generate a sentence from a keyword.',trigger:'jokestart'},
          //{value: 'judge', label: 'Judge my joke ⚖️',trigger:'ask_joke'}, 
-         {value: 'exit', label: 'Exit the game', trigger: 'exit_game'}
+         {value: 'exit', label: 'Exit', trigger: 'exit_game'}
    
        ]
      },
@@ -428,7 +428,7 @@ function stepsfrommodelblind(model) {
       }, 
       {
         id: 'exit_game',
-     component: ( <div> It's time to say goodbye, hope to see you again. Before you leave, would you mind taking a survey for me? It will be very helpful for me to improve.  <a href="https://www.google.com/">Take the Survey</a> </div>
+     component: ( <div> It's time to say goodbye, hope to see you again.</div>
      ),
         asMessage: true,
    
@@ -547,7 +547,7 @@ function stepsfrommodel(model) {
          //{value: 'game', label: 'Play a game 🎮',trigger:'jokestart'},
          {value: 'joke', label: 'Give me a joke 🤣',trigger:'jokestart'},
          //{value: 'judge', label: 'Judge my joke ⚖️',trigger:'ask_joke'}, 
-         {value: 'exit', label: 'Exit the game', trigger: 'exit_game'}
+         {value: 'exit', label: 'Exit', trigger: 'exit_game'}
    
        ]
      },
@@ -716,7 +716,7 @@ function stepsfrommodel(model) {
       }, 
       {
         id: 'exit_game',
-     component: ( <div> It's time to say goodbye, hope to see you again. Before you leave, would you mind taking a survey for me? It will be very helpful for me to improve.  <a href="https://www.google.com/">Take the Survey</a> </div>
+     component: ( <div> It's time to say goodbye, hope to see you again. </div>
      ),
         asMessage: true,
    

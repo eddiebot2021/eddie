@@ -73,7 +73,7 @@ class EvaluationProcess extends React.Component {
             <h4>Goal ⛳</h4>
             <p>Evaluate how humorous the jokes are and the impact on the mental health.</p>
             <h4>Participants 👥 </h4>
-            <p>College Students (Georgia Tech)</p>
+            <p>College Students </p>
             <p>1 Regular Group: Whether the backend design is a generator or a retrieval model is not known to the participants.</p>
             <p>1.1 Before the study, we provide the following information to the participants: EDDIE is a chatbot that provides jokes. It will ask you to provide a keyword for which it is going to present a related jokes. The jokes may not necessarily be humorous, and how funny the jokes are is up to your discernment.  </p>
             <p>2 Blind Group: The backend model will not be known to the participant.</p>
@@ -93,7 +93,7 @@ class EvaluationProcess extends React.Component {
             <h4>Google docs 📝 </h4>
             <p>We will write extra notes of our study on a password-protected Google Docs. Only researchers approved in this study will have access to this document.</p>
             <h4>Bot's Meta Data 📝</h4>
-            <p>EDDIE's backend runs on a secure AWS/Georgia Tech server. All usage is logged on that server and will only stay on that server in a local database. Both the database and the server are password-protected</p>
+            <p>EDDIE's backend runs on a secure AWS server. All usage is logged on that server and will only stay on that server in a local database. Both the database and the server are password-protected</p>
           </div>
         </div>
 
