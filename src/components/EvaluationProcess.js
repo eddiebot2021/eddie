@@ -93,7 +93,7 @@ class EvaluationProcess extends React.Component {
             <h4>Google docs 📝 </h4>
             <p>We will write extra notes of our study on a password-protected Google Docs. Only researchers approved in this study will have access to this document.</p>
             <h4>Bot's Meta Data 📝</h4>
-            <p>EDDIE's backend runs on a secure AWS server. All usage is logged on that server and will only stay on that server in a local database. Both the database and the server are password-protected</p>
+            <p>EDDIE's backend runs on a secure University server. All usage is logged on that server and will only stay on that server in a local database. Both the database and the server are password-protected</p>
           </div>
         </div>
 
